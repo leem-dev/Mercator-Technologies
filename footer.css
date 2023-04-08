@@ -1,0 +1,134 @@
+.footer-container {
+  margin: 0rem 7rem;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-container .top-footer-section {
+  color: white;
+
+  display: flex;
+  gap: 170px;
+}
+
+.top-footer-section h4 {
+  font-size: 10px;
+  line-height: 22px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.top-footer-section .first-top-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-top-footer h4 {
+  color: #f67366;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.first-top-footer h4 span {
+  color: white;
+  font-weight: 700;
+}
+
+.first-top-footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.top-footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-footer-section ul li {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.top-footer-section .middle-top-footer {
+  display: flex;
+  gap: 120px;
+}
+
+.top-footer-section .fourth-top-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fourth-top-footer .fourth-top-section {
+  display: flex;
+  gap: 10px;
+}
+
+.fourth-top-section div {
+  background: white;
+  padding: 12px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth-top-section img {
+  width: 15px;
+  height: 15px;
+}
+
+.footer-container .bottom-footer-section {
+  height: 3vh;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-footer-section .first-bottom-footer {
+  border-top: 1.5px solid rgba(229, 229, 229, 0.4);
+}
+
+.bottom-footer-section .second-bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.bottom-footer-section div span {
+  font-weight: 700;
+  color: #f67366;
+}
+
+@media only screen and (max-width: 1140px) {
+  .footer-container {
+    margin: 0rem 1rem;
+  }
+
+  .footer-container .top-footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .top-footer-section .middle-top-footer {
+    display: flex;
+    gap: 40px;
+  }
+}
